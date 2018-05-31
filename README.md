@@ -22,10 +22,11 @@ Grids are available in the GRIDS/ folder, as one zipped subfolder for each desir
 The latest global fit is **CJ15**, see the [original paper](http://inspirehep.net/record/1420566?ln=en) for details. Available grids are
 * CJ15nlo: next-to-leading order (NLO)
 * CJ15lo: leading order (LO)
-Structure functions are also avaiable (F2 neutral current only for now) as
+
+CJ15 NLO structure functions are also avaiable (F2 neutral current only for now) as:
 * CJ15nlo-F2NC
 
-The grids from the earlier **CJ12* NLO analysis are also available, although these have been superceded by the CJ15 PDFs. [See the original reference](http://inspirehep.net/record/1206325?ln=en) for details. Available grids are:
+The PDF grids from the earlier **CJ12* NLO analysis are also available, although these have been superceded by the CJ15 PDFs. [See the original reference](http://inspirehep.net/record/1206325?ln=en) for details. Available grids are:
 * CJ12min
 * CJ12mid
 * CJ12max 
