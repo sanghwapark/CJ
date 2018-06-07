@@ -9,6 +9,8 @@ Welcome to the CJ downloads page!
 
 Programs and grids to calculate the CJ PDFs and structure functions are collected in the [downloads/](downloads) folder, where more information and software usage can be found.
 
+Note that the CJ15 PDFs are also included in the [LHAPDF distribution](https://lhapdf.hepforge.org/).
+
 ## Citations
 
 When using the __CJ15 PDFs or structure functions__, please reference: 
