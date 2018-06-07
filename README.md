@@ -2,6 +2,8 @@
 
 Welcome to the CJ downloads page!
 
+(Eventually - possibly? - to become the CJ homepage, too, and replace current JLab hosted one)
+
 
 ## PDF and Structure Function sets
 
