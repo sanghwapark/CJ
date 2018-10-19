@@ -17,7 +17,7 @@ When using the __CJ15 PDFs or structure functions__, please reference:
 * A. Accardi, L. T. Brady, W. Melnitchouk, J. F. Owens and N. Sato, Phys.Rev. D93 (2016) 114017
 [(Inspire link)](http://inspirehep.net/record/1420566?ln=en)
 
-For the older __CJ12 PDFs__ (superseded, however by CJ15) please cite:
+For the older __CJ12 PDFs__ (superseded, however, by CJ15) please cite:
 * J.F. Owens, A. Accardi, W. Melnitchouk,
 Phys.Rev. D87 (2013) no.9, 094012
 [(Inspire link)](http://inspirehep.net/record/1206325?ln=en)
