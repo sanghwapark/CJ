@@ -19,7 +19,7 @@ When using the __CJ15 PDFs or structure functions__, please reference:
 
 For the older __CJ12 PDFs__ (superseded, however, by CJ15) please cite:
 * J.F. Owens, A. Accardi, W. Melnitchouk,
-Phys.Rev. D87 (2013) no.9, 094012
+Phys.Rev. D87 (2013) 094012
 [(Inspire link)](http://inspirehep.net/record/1206325?ln=en)
 
 
