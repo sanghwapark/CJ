@@ -10,6 +10,12 @@ Check the headers of `CJgrids.f` for details.
 
 Example programs `tst_CJpdf.f` and `tst_CJsfn.f` illustrate the usage of CJgrids to obtain PDFs and Structure Funtions, respectively.
 
+You can compile, e.g., with
+```
+> gfortran test_CJsfn.f CJgrids -o test_CJsfn
+```
+Note that you will need to specify a structure function grid at the prompt (in this case the only choice is 600, corresponding to the `tbl_CJ15nlo_F2NC` grid) and you will obtain a file with calculations of various F2 structure functions to be tested against the provided example. The grid files can be found in `GRIDS/` as zipped files, that need to be unpacked in the working folder. 
+
 ### Python
 
 CJgrids.f is ready to be ported to Python by using [f2py](https://docs.scipy.org/doc/numpy/f2py/). One simply needs to issue
