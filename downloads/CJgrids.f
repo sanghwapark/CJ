@@ -39,9 +39,11 @@ c
 c  600      | CJ15nlo F2NC structure functions
 c  601-648  | error sets
 c
+c  700      | CJ15nlo F2NC structure functions, with errorsets scaled to make deltachi=1.647
+c  701-648  | error sets
+
 c  The tables cover the x range 10^-6 < x < 1. and Q range 1.3 < Q < 10^5 GeV.
-c  Values outside these ranges must be considered as extrapolations.
-c
+c  Values outside these ranges must be considered as extrapolationsSpace
 c  Initialization:
 C  ---------------
 c  The user should initalize the PDF set by first calling SetCJ(ISET)
@@ -167,15 +169,18 @@ c      if(CJpdf.lt.0.d0)CJPDF=0.d0
       integer Iset
 Cf2py intent(in) Iset
       
-      Character Flnm(6)*100, nn*3, Tablefile*100
-      Data (Flnm(I), I=1,6)
+      Character Flnm(7)*100, nn*3, Tablefile*100
+      Character dir*100
+      Data (Flnm(I), I=1,7)
      >     / 'tbl_CJ12min/CJ12min_', 'tbl_CJ12mid/CJ12mid_'
      >     , 'tbl_CJ12max/CJ12max_'
      >     , 'tbl_CJ15lo/CJ15lo_','tbl_CJ15nlo/CJ15nlo_' 
-     >     , 'tbl_CJ15nlo-F2NC/CJ15nlo-F2NC_'/
+     >     , 'tbl_CJ15nlo-F2NC/CJ15nlo-F2NC_'
+     >     , 'tbl_CJ15_scaled_F2NC/CJ15_'/
       Data Isetold/-1/
       save
 
+      dir = '/home/shujie/jlab/cj/CJ/downloads/GRIDS/'
 C             If data file not initialized, do so.
       If(Iset.ne.Isetold) then
 
@@ -206,10 +211,16 @@ c            Tablefile=trim(Flnm(5))//nn(2:3)//'.tbl'
 c            Tablefile=trim(Flnm(5))//nn(2:3)//'.tbl'
             call trmstr(Flnm(6),len)
             Tablefile=Flnm(6)(1:len)//nn(2:3)//'.tbl'
+          Elseif (Iset.ge.700 .and. Iset.le.748) Then
+            write(nn,'(I3)') Iset
+c            Tablefile=trim(Flnm(5))//nn(2:3)//'.tbl'
+            call trmstr(Flnm(7),len)
+            Tablefile=Flnm(7)(1:len)//nn(2:3)//'-F2NC.tblQ'
          Else
             Print *, 'Invalid Iset number in SetCJ :', Iset
             Stop
          Endif
+         Tablefile = trim(dir)//Tablefile
          print*,'Opening ',Tablefile
          Open(IU, File=Tablefile, Status='OLD', Err=100)
  21      Call ReadTbl (IU,iset)
