@@ -10,6 +10,12 @@ Check the headers of `CJgrids.f` for details.
 
 Example programs `tst_CJpdf.f` and `tst_CJsfn.f` illustrate the usage of CJgrids to obtain PDFs and Structure Funtions, respectively.
 
+You can compile, e.g., with
+```
+> gfortran test_CJsfn.f CJgrids -o test_CJsfn
+```
+Note that you will need to specify a structure function grid at the prompt (in this case the only choice is 600, corresponding to the `tbl_CJ15nlo_F2NC` grid) and you will obtain a file with calculations of various F2 structure functions to be tested against the provided example. The grid files can be found in the [`GRIDS/`](GRIDS/) folder as zipped files, that need to be unpacked in the working folder. 
+
 ### Python
 
 CJgrids.f is ready to be ported to Python by using [f2py](https://docs.scipy.org/doc/numpy/f2py/). One simply needs to issue
@@ -19,7 +25,7 @@ CJgrids.f is ready to be ported to Python by using [f2py](https://docs.scipy.org
 
 ## PDF and structure function grids
 
-Grids are available in the GRIDS/ folder, as one zipped subfolder for each desired set. Subfolder names start with `tbl_` followed by the name of the set a
+Grids are available in the [`GRIDS/`](GRIDS/) folder, as one zipped subfolder for each desired set. Subfolder names start with `tbl_` followed by the name of the set a
 
 **Note:**
 * Grids are available in the range 10-6 ≤ x ≤ 1 and 1.3 ≤ Q ≤ 105 GeV. However, the region where the PDFs are directly constrained by data is 2 x 10-5 < x < 0.9 and 1.3 < Q < 550 GeV. 
