@@ -180,7 +180,7 @@ Cf2py intent(in) Iset
       Data Isetold/-1/
       save
 
-      dir = '/home/shujie/jlab/cj/CJ/downloads/GRIDS/'
+      dir = '/Users/shujie/jlab/CJ/downloads/GRIDS/'
 C             If data file not initialized, do so.
       If(Iset.ne.Isetold) then
 
