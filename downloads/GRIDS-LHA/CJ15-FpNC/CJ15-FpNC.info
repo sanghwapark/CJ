@@ -4,7 +4,7 @@ Authors: Accardi A, Brady L T, Melnitchouk W, Owens J F, Sato N
 Reference: arXiv:1602.03154v2 - e-mail accardi@jlab.org
 Format: lhagrid1
 DataVersion:  1
-NumMembers:  81
+NumMembers:  49
 Particle:     2212
 Flavors: [900,901,902,903,904,905,906,907,908,909,910]
 OrderQCD: 1
