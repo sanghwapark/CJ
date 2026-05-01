@@ -19,7 +19,9 @@ Note that LHAPDF grids can also be found from [LHAPDF distribution](https://lhap
 | 12600  | CJ22ht_mult  | 
 | 12620  | CJ22ht_add   | 
 | 12640  | CJ22ht_mult_iso  | 
-| 12660  | CJ22ht_add_iso  | 
+| 12660  | CJ22ht_add_iso  |
+| 12700  | CJ26_mHT | 
+| 12720  | CJ26_aHT |
 
 ## Bugs and other issue
 * To report bugs and technical issues, please use the [CJ github issue tracker](https://github.com/JeffersonLab/CJ/issues)  
