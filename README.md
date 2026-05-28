@@ -1,6 +1,8 @@
 # CTEQ-JLab collaboration downloads
 
-Welcome to the CJ downloads page!
+Welcome to the CJ downloads page!  
+## About CJ
+The CJ (CTEQ-Jefferson Lab) Collaboration studies the quark and gluon structure of the nucleon by performing global QCD fits of parton distribution functions (PDFs). These parametrize a vast array of data including deep-inelastic lepton-nucleon scattering, proton-proton collisions (lepton pair creation, W-boson and jet production), and other reactions, with particular focus on the large-x region.
 
 ## PDF and Structure Function sets
 
@@ -23,6 +25,5 @@ Note that LHAPDF grids can also be found from [LHAPDF distribution](https://lhap
 | 12700  | CJ26_mHT | 
 | 12720  | CJ26_aHT |
 
-## Bugs and other issue
-* To report bugs and technical issues, please use the [CJ github issue tracker](https://github.com/JeffersonLab/CJ/issues)  
-* For any other question, please contact Alberto Accardi at "accardi_at_jlab.org"
+## Feedback and Support
+Please use the [CJ github issue tracker](https://github.com/JeffersonLab/CJ/issues)
