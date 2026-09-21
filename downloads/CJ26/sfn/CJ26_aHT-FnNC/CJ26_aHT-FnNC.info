@@ -1,4 +1,4 @@
-SetDesc: 'CJ26 DIS structure functions. The 48 error gridsare calculated with Delta\chi=1.645; if experimental errors were Gaussian and all experiments compatible, this would correspondto a 90% confidence level. Errors on observables can be calculated using Eqs.(6)-(7) with T=1 from Owens et al., PRD87(2013)094012 [arXiv:1212.1702]. Flavor indexes : F2g (900), FLg(901), 902-904=F2,FL,F3 for gZ; 905-907=same for Z; 908-910=same for NC'
+SetDesc: 'CJ26 DIS structure functions. The 64 error gridsare calculated with Delta\chi=1.645; if experimental errors were Gaussian and all experiments compatible, this would correspondto a 90% confidence level. Errors on observables can be calculated using Eqs.(6)-(7) with T=1 from Owens et al., PRD87(2013)094012 [arXiv:1212.1702]. Flavor indexes : F2g (900), FLg(901), 902-904=F2,FL,F3 for gZ; 905-907=same for Z; 908-910=same for NC'
 SetIndex: 12724
 Authors: A. Accardi, M. Cerutti, C.E. Keppel, S. Li, J.F. Owens, S. Park, P. Risse
 Reference: arXiv:2605.31424
